@@ -4,7 +4,7 @@ body {
     font-family: "system-ui";
     text-align: center;
     max-width: 980px;
-    margin: 0 auto;
+    margin:  auto;
     background-image: radial-gradient(
       circle farthest-corner at 10% 20%,
       rgba(222, 168, 248, 1) 0%,
@@ -24,8 +24,7 @@ body {
         grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
         gap:2rem;
         height: 940px;
-        max-height:1080px
-        padding-bottom:auto;
+        
         background: rgba( 255, 255, 255, 0.2 );
         box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
         backdrop-filter: blur( 20px );

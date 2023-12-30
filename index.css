@@ -21,7 +21,7 @@ body {
   }
   .container {
         display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(150px));
+        grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
         gap:2rem;
         height: 940px;
         background: rgba( 255, 255, 255, 0.2 );

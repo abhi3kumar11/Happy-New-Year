@@ -23,7 +23,7 @@ body {
         display: grid;
         grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
         gap:2rem;
-        height: 960px;
+        height: 980px;
         background: rgba( 255, 255, 255, 0.2 );
         box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
         backdrop-filter: blur( 20px );
